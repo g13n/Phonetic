@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleAnimator.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleButton.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleInfoButton.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="main.css">
+    <script type="text/javascript" src="Parts/parts.js" charset="utf-8"></script>
+    <script type="text/javascript" src="localizedStrings.js" charset="utf-8"></script>
+    <script type="text/javascript" src="main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleScrollbar.js" charset="utf-8"></script>
+    <script type="text/javascript" src="file:///System/Library/WidgetResources/AppleClasses/AppleScrollArea.js" charset="utf-8"></script>
+</head>
+<body onload="load();">
+    <div id="front">
+        <img id="frontImg" src="Parts/Images/front.png" alt="">
+        <div id="fullNameBtn"></div>
+        <div id="orText"></div>
+        <div id="phoneticList">
+            <div id="content" class="content" style="position: absolute; left: 0px; top: 0px; right: 22px; bottom: 0px; overflow-x: hidden; overflow-y: hidden; "></div></div>
+        <input id="inputText" type="search" value="" placeholder="" results="10" incremental="incremental" onsearch="inputTextSearch(event)">
+        <div id="infobutton" class="info"></div>
+    </div>
+    <div id="back">
+        <img id="backImg" src="Parts/Images/back.png" alt="">
+        <img src="Images/DevelopedWith.png" alt="Created with Dashcode" id="backDevelopedWith">
+        <div id="done"></div>
+        <div id="about"></div>
+        <div id="copyright"></div>
+        <div id="whatsthis" onclick="openWhatsThis(event)"></div>
+        <textarea id="freesoftware">This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</textarea>
+        <div id="rights"></div>
+    </div>
+</body>
+</html>

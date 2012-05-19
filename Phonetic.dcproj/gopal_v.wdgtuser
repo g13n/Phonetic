@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Breakpoints</key>
+	<dict>
+		<key>widget.wdgt/main.js:158</key>
+		<string>-fullNameBtnClick</string>
+		<key>widget.wdgt/main.js:175</key>
+		<string>-inputTextSearch</string>
+		<key>widget.wdgt/main.js:183</key>
+		<string>-</string>
+	</dict>
+	<key>CYLastWindowPosition</key>
+	<string>{642, 297}</string>
+	<key>ContentSplitViewGeometry</key>
+	<dict>
+		<key>ContentSplitViewConfig</key>
+		<integer>8</integer>
+		<key>SplitViewConfig</key>
+		<integer>3</integer>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {1191, 483}}</string>
+			<string>{{0, 493}, {1191, 284}}</string>
+		</array>
+	</dict>
+	<key>ContentViewType</key>
+	<integer>5</integer>
+	<key>DeploymentOptions</key>
+	<dict>
+		<key>Destination</key>
+		<string>localhost.default</string>
+		<key>Path</key>
+		<string>Phonetic</string>
+		<key>Save</key>
+		<true/>
+		<key>SavePath</key>
+		<string>/Users/gopal_v/Documents/Projects/Phonetic</string>
+		<key>enableSimulation</key>
+		<true/>
+		<key>simulatedHost</key>
+		<string>facenumber-lm.local</string>
+	</dict>
+	<key>Design time language</key>
+	<string>en.lproj</string>
+	<key>MainSplitViewGeometry</key>
+	<dict>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {244, 798}}</string>
+			<string>{{245, 0}, {1192, 798}}</string>
+		</array>
+	</dict>
+	<key>MainWindowFrame</key>
+	<string>4 59 1436 819 0 0 1440 878 </string>
+	<key>NavigatorSplitViewGeometry</key>
+	<dict>
+		<key>ContentSplitViewConfig</key>
+		<integer>9</integer>
+		<key>SplitViewConfig</key>
+		<integer>3</integer>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {246, 404}}</string>
+			<string>{{0, 414}, {246, 363}}</string>
+		</array>
+	</dict>
+	<key>Widget</key>
+	<dict>
+		<key>Objects view expanded items</key>
+		<array>
+			<array>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>2</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>5</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>4</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>3</integer>
+			</array>
+			<array>
+				<integer>0</integer>
+				<integer>0</integer>
+				<integer>3</integer>
+				<integer>0</integer>
+			</array>
+		</array>
+		<key>Objects view last selections</key>
+		<array>
+			<array>
+				<integer>5</integer>
+			</array>
+		</array>
+		<key>Opened Steps</key>
+		<array>
+			<integer>0</integer>
+			<integer>1</integer>
+			<integer>2</integer>
+			<integer>3</integer>
+			<integer>4</integer>
+			<integer>5</integer>
+		</array>
+		<key>Visible StackLayout Views</key>
+		<array>
+			<string>front</string>
+		</array>
+	</dict>
+</dict>
+</plist>
