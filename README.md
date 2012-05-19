@@ -10,5 +10,5 @@ Where do I download the App?
 
 You can download the app from one of the following locations:
 
--  [Softpedia](http://mac.softpedia.com/get/Dashboard-Widgets/Webcams/Miscellaneous/Phonetic.shtml "Download Phonetic from Softpedia"){:rel='nofollow'}
--  [MacUpdate](http://www.macupdate.com/app/mac/40421/phonetic "Download Phonetic from MacUpdate"){:rel='nofollow'}
+-  [Softpedia](http://mac.softpedia.com/get/Dashboard-Widgets/Webcams/Miscellaneous/Phonetic.shtml "Download Phonetic from Softpedia")
+-  [MacUpdate](http://www.macupdate.com/app/mac/40421/phonetic "Download Phonetic from MacUpdate")
