@@ -95,10 +95,10 @@ body {
     margin-top: 0px;
     top: 148px;
     height: 201px;
-    border-top-left-radius: 0px 0px;
-    border-top-right-radius: 0px 0px;
-    border-bottom-left-radius: 0px 0px;
-    border-bottom-right-radius: 0px 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
     border-width: 1px !important;
     border-style: inset;
     font-size: 14pt;
@@ -164,11 +164,11 @@ body {
     margin-top: 0px;
     font-size: 8pt;
     color: rgb(255, 255, 255);
-    left: 277px;
-    top: 47px;
-    right: 37px;
+    top: 39px;
+    left: 264px;
+    right: 50px;
     width: auto;
-    bottom: 317px;
+    bottom: 325px;
     height: auto;
 }
 
@@ -185,9 +185,9 @@ body {
     bottom: auto;
     margin-top: 0px;
     width: 276px;
-    top: 124px;
     left: 58px;
-    height: 157px;
+    height: 95px;
+    top: 121px;
 }
 
 #infobutton {
@@ -217,5 +217,34 @@ body {
 }
 
 .selected #rights {
+    color: white;
+}
+
+#phoneticOption {
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 252px;
+    left: 124px;
+    width: 217px;
+}
+
+#text {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    top: 252px;
+    left: 58px;
+    width: auto;
+    height: auto;
+    color: rgb(255, 255, 255);
+}
+
+.selected #text {
     color: white;
 }

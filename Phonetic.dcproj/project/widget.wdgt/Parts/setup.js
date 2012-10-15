@@ -13,8 +13,10 @@ var dashcodePartSpecs = {
     "orText": { "text": "OR", "view": "DC.Text" },
     "phoneticList": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
     "rights": { "text": "All rights reserved.", "view": "DC.Text" },
+    "text": { "text": "Phonetic:", "view": "DC.Text" },
     "whatsthis": { "text": "What's this?", "view": "DC.Text" }
 };
+
 
 
 

@@ -4,12 +4,14 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>widget.wdgt/main.js:158</key>
+		<key>widget.wdgt/main.js:198</key>
 		<string>-fullNameBtnClick</string>
-		<key>widget.wdgt/main.js:175</key>
+		<key>widget.wdgt/main.js:215</key>
 		<string>-inputTextSearch</string>
-		<key>widget.wdgt/main.js:183</key>
+		<key>widget.wdgt/main.js:223</key>
 		<string>-</string>
+		<key>widget.wdgt/main.js:242</key>
+		<string>-makePhonetic</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
 	<string>{642, 297}</string>
@@ -23,8 +25,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {1191, 483}}</string>
-			<string>{{0, 493}, {1191, 284}}</string>
+			<string>{{0, 0}, {1035, 326}}</string>
+			<string>{{0, 336}, {1035, 284}}</string>
 		</array>
 	</dict>
 	<key>ContentViewType</key>
@@ -38,7 +40,7 @@
 		<key>Save</key>
 		<true/>
 		<key>SavePath</key>
-		<string>/Users/gopal_v/Documents/Projects/Phonetic</string>
+		<string>/Users/gopal_v/src/Phonetic</string>
 		<key>enableSimulation</key>
 		<true/>
 		<key>simulatedHost</key>
@@ -52,12 +54,12 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {244, 798}}</string>
-			<string>{{245, 0}, {1192, 798}}</string>
+			<string>{{0, 0}, {244, 641}}</string>
+			<string>{{245, 0}, {1036, 641}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
-	<string>4 59 1436 819 0 0 1440 878 </string>
+	<string>0 116 1280 662 0 0 1280 778 </string>
 	<key>NavigatorSplitViewGeometry</key>
 	<dict>
 		<key>ContentSplitViewConfig</key>
@@ -68,8 +70,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 404}}</string>
-			<string>{{0, 414}, {246, 363}}</string>
+			<string>{{0, 0}, {246, 320}}</string>
+			<string>{{0, 330}, {246, 290}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
@@ -131,7 +133,7 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>front</string>
+			<string>back</string>
 		</array>
 	</dict>
 </dict>

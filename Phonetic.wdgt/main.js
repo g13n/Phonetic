@@ -19,42 +19,82 @@
 */
 
 var phoneticList = {
-    a: "Alpha (AL-FAH)",
-    b: "Bravo (BRAH-VOH)",
-    c: "Charlie (CHAR-LEE)",
-    d: "Delta (DELL-TAH)",
-    e: "Echo (ECK-OH)",
-    f: "Foxtrot (FOKS-TROT)",
-    g: "Golf (GOLF)",
-    h: "Hotel (HOH-TEL)",
-    i: "India (IN-DEE-AH)",
-    j: "Juliet (JEW-LEE-ETT)",
-    k: "Kilo (KEY-LOH)",
-    l: "Lima (LEE-MAH)",
-    m: "Mike (MIKE)",
-    n: "November (NO-VEM-BER)",
-    o: "Oscar (OSS-CAR)",
-    p: "Papa (PAH-PAH)",
-    q: "Quebec (KEH-BECK)",
-    r: "Romeo (ROW-ME-OH)",
-    s: "Sierra (SEE-AIR-RAH)",
-    t: "Tango (TANG-GO)",
-    u: "Uniform (YOU-NEE-FORM)",
-    v: "Victor (VIK-TAH)",
-    w: "Whiskey (WISS-KEY)",
-    x: "X-Ray (ECKS-RAY)",
-    y: "Yankee (YAN-KEE)",
-    z: "Zulu (ZOO-LOO)",
-    1: "One (WON)",
-    2: "Two (TOO)",
-    3: "Three (TREE)",
-    4: "Four (FOW-ER)",
-    5: "Five (FIFE)",
-    6: "Six (SIX)",
-    7: "Seven (SEV-EN)",
-    8: "Eight (AIT)",
-    9: "Nine (NI-NEH)",
-    0: "Zero (ZEE-ROW)"
+    nato: {
+        a: "Alpha (AL-FAH)",
+        b: "Bravo (BRAH-VOH)",
+        c: "Charlie (CHAR-LEE)",
+        d: "Delta (DELL-TAH)",
+        e: "Echo (ECK-OH)",
+        f: "Foxtrot (FOKS-TROT)",
+        g: "Golf (GOLF)",
+        h: "Hotel (HOH-TEL)",
+        i: "India (IN-DEE-AH)",
+        j: "Juliet (JEW-LEE-ETT)",
+        k: "Kilo (KEY-LOH)",
+        l: "Lima (LEE-MAH)",
+        m: "Mike (MIKE)",
+        n: "November (NO-VEM-BER)",
+        o: "Oscar (OSS-CAR)",
+        p: "Papa (PAH-PAH)",
+        q: "Quebec (KEH-BECK)",
+        r: "Romeo (ROW-ME-OH)",
+        s: "Sierra (SEE-AIR-RAH)",
+        t: "Tango (TANG-GO)",
+        u: "Uniform (YOU-NEE-FORM)",
+        v: "Victor (VIK-TAH)",
+        w: "Whiskey (WISS-KEY)",
+        x: "X-Ray (ECKS-RAY)",
+        y: "Yankee (YAN-KEE)",
+        z: "Zulu (ZOO-LOO)",
+        1: "One (WON)",
+        2: "Two (TOO)",
+        3: "Three (TREE)",
+        4: "Four (FOW-ER)",
+        5: "Five (FIFE)",
+        6: "Six (SIX)",
+        7: "Seven (SEV-EN)",
+        8: "Eight (AIT)",
+        9: "Nine (NI-NEH)",
+        0: "Zero (ZEE-ROW)"
+    },
+    lapd: {
+        a: "Adam (ADAM)",
+        b: "Boy (BOY)",
+        c: "Charles (CHARLES)",
+        d: "David (DAVID)",
+        e: "Edward (ED-WARD)",
+        f: "Frank (FRANK)",
+        g: "George (GEORGE)",
+        h: "Henry (HEN-RY)",
+        i: "Ida (I-DAH)",
+        j: "John (JOHN)",
+        k: "King (KING)",
+        l: "Lincoln (LIN-KUN)",
+        m: "Mary (MAY-REE)",
+        n: "Norah (NO-RAH)",
+        o: "Ocean (O-SHAN)",
+        p: "Paul (PAOL)",
+        q: "Queen (KWEEN)",
+        r: "Robert (ROB-ERT)",
+        s: "Sam (SAAM)",
+        t: "Tom (TOM)",
+        u: "Union (YOU-NEE-AN)",
+        v: "Victor (VIK-TAH)",
+        w: "William (WIL-I-AM)",
+        x: "X-Ray (ECKS-RAY)",
+        y: "Young (YAN-G)",
+        z: "Zebra (ZEE-BRA)",
+        1: "One (WON)",
+        2: "Two (TOO)",
+        3: "Three (TREE)",
+        4: "Four (FOW-ER)",
+        5: "Five (FIFE)",
+        6: "Six (SIX)",
+        7: "Seven (SEV-EN)",
+        8: "Eight (AIT)",
+        9: "Nine (NI-NEH)",
+        0: "Zero (ZEE-ROW)"
+    }
 };
 
 /*
@@ -195,14 +235,17 @@ function openWhatsThis(event) {
 */
 function makePhonetic(input) {
     var list  = document.getElementById("phoneticList"),
+        phonetic = document.getElementById("phoneticOption"),
         text = [],
-        c, i, n;
+        c, i, n, phonetic;
 
+    phonetic = phonetic.value;
+    
     // How to handle non-ASCII?
     for (i = 0, n = input.length; i < n; ++i) {
         c = input.charAt(i).toLowerCase();
-        if (c in phoneticList) {
-            text.push(phoneticList[c]);
+        if (c in phoneticList[phonetic]) {
+            text.push(phoneticList[phonetic][c]);
         } else {
             text.push(c);
         }
