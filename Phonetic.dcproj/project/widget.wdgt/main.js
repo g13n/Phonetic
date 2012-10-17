@@ -254,3 +254,8 @@ function makePhonetic(input) {
     list.object.refresh();
 }
 
+
+
+function onPhoneticChange(event) {
+    inputTextSearch(event);
+}
