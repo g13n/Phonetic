@@ -101,10 +101,12 @@ var phoneticList = {
     Called by HTML body element's onload event when the widget is ready to start.
 */
 function load() {
-    var copyright = document.getElementById("copyright");
+    var copyright = document.getElementById("copyright"),
+        phoneticText = document.getElementById("phoneticText");
 
     dashcode.setupParts();
     copyright.setAttribute("readonly");
+    phoneticText.setAttribute("readonly");
     // Default load last saved text or clipboard data in the inputText
 }
 
@@ -237,7 +239,7 @@ function openWhatsThis(event) {
     Make NATO Phonetic for the given input text.
 */
 function makePhonetic(input) {
-    var list  = document.getElementById("phoneticList"),
+    var list  = document.getElementById("phoneticText"),
         phonetic = document.getElementById("phoneticOption"),
         text = [],
         c, i, n, phonetic;
@@ -253,8 +255,7 @@ function makePhonetic(input) {
             text.push(c);
         }
     }
-    list.object.content.innerText = text.join("\n");
-    list.object.refresh();
+    list.innerHTML = text.join("\n");
 }
 
 

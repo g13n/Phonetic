@@ -4,13 +4,13 @@
 <dict>
 	<key>Breakpoints</key>
 	<dict>
-		<key>widget.wdgt/main.js:201</key>
+		<key>widget.wdgt/main.js:203</key>
 		<string>-fullNameBtnClick</string>
-		<key>widget.wdgt/main.js:218</key>
+		<key>widget.wdgt/main.js:220</key>
 		<string>-inputTextSearch</string>
-		<key>widget.wdgt/main.js:226</key>
+		<key>widget.wdgt/main.js:228</key>
 		<string>-</string>
-		<key>widget.wdgt/main.js:245</key>
+		<key>widget.wdgt/main.js:247</key>
 		<string>-makePhonetic</string>
 	</dict>
 	<key>CYLastWindowPosition</key>
@@ -133,7 +133,7 @@
 		</array>
 		<key>Visible StackLayout Views</key>
 		<array>
-			<string>back</string>
+			<string>front</string>
 		</array>
 	</dict>
 </dict>

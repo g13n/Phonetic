@@ -12,9 +12,9 @@ var dashcodePartSpecs = {
     "issues": { "text": "Report Bugs/Issues", "view": "DC.Text" },
     "orText": { "text": "OR", "view": "DC.Text" },
     "phoneticLbl": { "text": "Phonetic:", "view": "DC.Text" },
-    "phoneticList": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
     "whatsthis": { "text": "What's this?", "view": "DC.Text" }
 };
+
 
 
 
