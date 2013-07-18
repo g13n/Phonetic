@@ -1,7 +1,7 @@
 /*
     NATO Phonetic Codes
     
-    Copyright 2011 Gopal Venkatesan
+    Copyright 2011-2013 Gopal Venkatesan
     All rights reserved.
 
     This program is free software: you can redistribute it and/or modify
@@ -101,7 +101,10 @@ var phoneticList = {
     Called by HTML body element's onload event when the widget is ready to start.
 */
 function load() {
+    var copyright = document.getElementById("copyright");
+
     dashcode.setupParts();
+    copyright.setAttribute("readonly");
     // Default load last saved text or clipboard data in the inputText
 }
 
@@ -146,8 +149,8 @@ function sync() {
     event: onClick event from the info button
 */
 function showBack(event) {
-    var front = document.getElementById("front");
-    var back = document.getElementById("back");
+    var front = document.getElementById("front"),
+        back = document.getElementById("back");
 
     if (window.widget) {
         widget.prepareForTransition("ToBack");
@@ -254,3 +257,20 @@ function makePhonetic(input) {
     list.object.refresh();
 }
 
+
+
+function onPhoneticChange(event) {
+    inputTextSearch(event);
+}
+
+
+function projectNameClickHandler(event)
+{
+    widget.openURL("https://github.com/g13n/Phonetic/");
+}
+
+
+function issuesClickHandler(event)
+{
+    widget.openURL("https://github.com/g13n/Phonetic/issues/");
+}

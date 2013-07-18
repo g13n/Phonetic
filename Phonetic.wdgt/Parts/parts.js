@@ -14,16 +14,16 @@ if(!window.dashcode){dashcode=new Object()}dashcode.setupParts=function(){if(das
  */
 var dashcodePartSpecs = {
     "about": { "text": "NATO Phonetic Widget", "view": "DC.Text" },
-    "copyright": { "text": "Copyright 2011  Gopal Venkatesan", "view": "DC.Text" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "fullNameBtn": { "creationFunction": "CreateButton", "leftImageWidth": 5, "onclick": "fullNameBtnClick", "rightImageWidth": 5, "text": "Choose my full name" },
     "infobutton": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
+    "issues": { "text": "Report Bugs/Issues", "view": "DC.Text" },
     "orText": { "text": "OR", "view": "DC.Text" },
+    "phoneticLbl": { "text": "Phonetic:", "view": "DC.Text" },
     "phoneticList": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
-    "rights": { "text": "All rights reserved.", "view": "DC.Text" },
-    "text": { "text": "Phonetic:", "view": "DC.Text" },
     "whatsthis": { "text": "What's this?", "view": "DC.Text" }
 };
+
 
 
 
