@@ -54,8 +54,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {244, 829}}</string>
-			<string>{{245, 0}, {1196, 829}}</string>
+			<string>{{0, 0}, {244, 693}}</string>
+			<string>{{245, 0}, {1036, 693}}</string>
 		</array>
 	</dict>
 	<key>MainWindowFrame</key>
@@ -70,8 +70,8 @@
 		<integer>0</integer>
 		<key>sizes</key>
 		<array>
-			<string>{{0, 0}, {246, 418.5}}</string>
-			<string>{{0, 428.5}, {246, 379.5}}</string>
+			<string>{{0, 0}, {246, 347}}</string>
+			<string>{{0, 357}, {246, 315}}</string>
 		</array>
 	</dict>
 	<key>Widget</key>
