@@ -10,5 +10,4 @@ Where do I download the App?
 
 You can download the app from one of the following locations:
 
--  [Downloads page](https://github.com/g13n/Phonetic/downloads)
 -  [MacUpdate](http://www.macupdate.com/app/mac/40421/phonetic "Download Phonetic from MacUpdate")
