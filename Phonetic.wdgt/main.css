@@ -8,17 +8,6 @@ body {
     margin: 0px;
 }
 
-#frontImg {
-    position: absolute;
-    display: block;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    width: auto;
-    bottom: 0px;
-    height: auto;
-}
-
 #back {
     display: none;
 }
@@ -28,17 +17,17 @@ body {
     display: block;
     top: 0px;
     left: 0px;
-    right: 0px;
     width: auto;
-    bottom: 0px;
     height: auto;
+    right: 0px;
+    bottom: 0px;
 }
 
 #done {
     position: absolute;
-    right: 21px;
-    bottom: 21px;
+    right: 45px;
     margin-left: auto;
+    bottom: 21px;
     margin-top: auto;
 }
 
@@ -46,8 +35,8 @@ body {
     position: absolute;
     width: 150px;
     height: 49px;
-    left: 58px;
-    top: 308px;
+    left: 45px;
+    top: 410px;
     margin-right: auto;
 }
 
@@ -60,11 +49,11 @@ body {
     right: auto;
     margin-top: 0px;
     font-size: 14pt;
-    top: 30px;
+    top: 34px;
     left: 60px;
-    width: 262px;
-    bottom: 319px;
+    width: 259px;
     height: auto;
+    bottom: 418px;
 }
 
 #orText {
@@ -93,8 +82,8 @@ body {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    top: 148px;
-    height: 201px;
+    top: 144px;
+    height: 295px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
@@ -115,7 +104,7 @@ body {
     margin-top: 0px;
     top: 100px;
     left: 60px;
-    width: 262px;
+    width: 259px;
 }
 
 #about {
@@ -127,32 +116,14 @@ body {
     color: rgb(255, 255, 255);
     font-size: 14pt;
     top: 47px;
-    left: 58px;
-    right: 100px;
+    left: 45px;
     width: auto;
     height: auto;
+    right: 113px;
+    cursor: pointer;
 }
 
 .selected #about {
-    color: white;
-}
-
-#copyright {
-    font-family: 'Lucida Grande', Arial, sans-serif;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 0px;
-    font-size: 10pt;
-    color: rgb(255, 255, 255);
-    left: 58px;
-    top: 78px;
-    right: 90px;
-    width: auto;
-    height: auto;
-}
-
-.selected #copyright {
     color: white;
 }
 
@@ -165,18 +136,19 @@ body {
     font-size: 8pt;
     color: rgb(255, 255, 255);
     top: 39px;
-    left: 264px;
-    right: 50px;
+    left: 253px;
     width: auto;
-    bottom: 325px;
     height: auto;
+    right: 61px;
+    bottom: 325px;
+    cursor: pointer;
 }
 
 .selected #whatsthis {
     color: white;
 }
 
-#freesoftware {
+#copyright {
     color: black;
     font-family: HelveticaNeue;
     font-size: 10pt;
@@ -184,10 +156,10 @@ body {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    width: 276px;
-    left: 58px;
-    height: 95px;
-    top: 121px;
+    width: 284px;
+    left: 45px;
+    height: 225px;
+    top: 127px;
 }
 
 #infobutton {
@@ -198,26 +170,7 @@ body {
     bottom: auto;
     margin-top: 0px;
     left: 345px;
-    top: 346px;
-}
-
-#rights {
-    font-family: 'Lucida Grande', Arial, sans-serif;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 0px;
-    font-size: 10pt;
-    color: rgb(255, 255, 255);
-    left: 58px;
-    top: 95px;
-    right: 90px;
-    width: auto;
-    height: auto;
-}
-
-.selected #rights {
-    color: white;
+    top: 445px;
 }
 
 #phoneticOption {
@@ -226,25 +179,56 @@ body {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    top: 252px;
-    left: 124px;
+    top: 89px;
+    left: 118px;
     width: 217px;
 }
 
-#text {
+#phoneticLbl {
     font-size: 13px;
     font-family: 'Lucida Grande', Arial, sans-serif;
     text-overflow: ellipsis;
     overflow: hidden;
     position: absolute;
     margin-top: 0px;
-    top: 252px;
-    left: 58px;
+    top: 89px;
+    left: 48px;
     width: auto;
     height: auto;
     color: rgb(255, 255, 255);
 }
 
-.selected #text {
+.selected #phoneticLbl {
+    color: white;
+}
+
+#frontImage {
+    width: 380px;
+    height: 480px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+}
+
+#issues {
+    font-size: 13px;
+    font-family: 'Lucida Grande', Arial, sans-serif;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    position: absolute;
+    left: 45px;
+    top: 375px;
+    margin-top: 0px;
+    right: 208px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.selected #issues {
     color: white;
 }
